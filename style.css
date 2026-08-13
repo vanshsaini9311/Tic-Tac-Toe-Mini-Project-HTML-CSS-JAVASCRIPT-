@@ -1,0 +1,102 @@
+body{
+    
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 166, 140);
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    border: none;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 50px;
+    
+    
+    
+}
+.messagecont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 300px 0px;
+}
+.msg {
+    margin-top : 30px;
+    font-size: 70px;
+    color:yellow;
+}
+.hide{
+    display: none;
+}
+.container{
+    height :30vh;
+    
+    width: 400px;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+ .box button{
+    border: none;
+    
+    /* background-color: antiquewhite; */
+    color: brown;
+    
+}
+button{
+    font-size: 50px;
+
+}
+.boxes{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    align-items: center;
+   gap : 10px;
+}
+.resetgame  {
+    margin-top: 40px;
+    
+    
+}
+.resetgame button{
+    font-size: 23px;
+    border: none;
+    background-color: black;
+    margin: 40px;
+    padding:13px 26px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 70px;
+    
+}
+.newgame{
+      font-size: 23px;
+    border: none;
+    background-color: black;
+    margin: 40px;
+    padding:13px 26px;
+    border-radius: 8px;
+    color: white;
+    
+}
+.ttt{
+    font-size: 33px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
